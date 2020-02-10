@@ -1,0 +1,21 @@
+[{
+  "host": "https://test_environment_1.com"
+}, {
+  "host": "https://test_environment_2.com"
+}, {
+  "host": "https://test_environment_3.com"
+}, {
+  "host": "https://test_environment_4.com"
+}, {
+  "host": "https://test_environment_5.com"
+}, {
+  "host": "https://test_environment_6.com"
+}, {
+  "host": "https://test_environment_7.com"
+}, {
+  "host": "https://test_environment_8.com"
+}, {
+  "host": "https://test_environment_9.com"
+}, {
+  "host": "https://test_environment_10.com"
+}]

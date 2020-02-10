@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "06e7c613-f512-4f0b-9dbf-b40de11e37e8",
+		"name": "example-api-tests",
+		"description": "These requests run against a dummy REST API endpoint and expect a 200 response in each case",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Get all employee data"
+			},
+			"response": []
+		},
+		{
+			"name": "Get a single employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Get a single employee data"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "dd222375-0dc2-4c16-b843-450bcca58836",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "7f7dc3e2-eddd-4dfa-acf1-5ed2812cc20d",
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"Status code is 200\", function () {",
+					"    pm.response.to.have.status(200);",
+					"});"
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

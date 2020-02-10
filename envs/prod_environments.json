@@ -1,0 +1,9 @@
+[{
+  "host": "https://prod_environment_1.com"
+}, {
+  "host": "https://prod_environment_2.com"
+}, {
+  "host": "https://prod_environment_3.com"
+}, {
+  "host": "https://prod_environment_4.com"
+}]

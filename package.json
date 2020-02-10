@@ -1,0 +1,23 @@
+{
+  "name": "postman-newman-gitlab",
+  "version": "1.0.0",
+  "dependencies": {
+    "newman-reporter-html": "^1.0.1",
+    "newman": "^4.0.2"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "npm": "^6.4.0",
+    "rimraf": "^2.6.2"
+  },
+  "scripts": {
+    "clean": "rimraf reports/; mkdirp reports/",
+    "test": "newman run collections/example-synth-tests.json -d envs/all_environments.json -n 4 --insecure --reporters cli,html,junit --reporter-junit-export reports/ --reporter-html-export reports/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shcarroll/postman-newman-gitlab.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
